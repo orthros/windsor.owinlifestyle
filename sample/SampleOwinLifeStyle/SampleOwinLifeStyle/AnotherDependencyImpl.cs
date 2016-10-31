@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace SampleOwinLifeStyle
 {
@@ -8,6 +9,7 @@ namespace SampleOwinLifeStyle
         {
             get
             {
+                Task.Delay(500).Wait();
                 return "I am a much worse implementation";
             }
         }
