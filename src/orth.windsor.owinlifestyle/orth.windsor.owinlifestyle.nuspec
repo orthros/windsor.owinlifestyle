@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Orth.Castle.Windsor.OwinLifeStyle</id>
+    <version>1.0.0</version>
+    <authors>orthros</authors>
+    <owners>orthros</owners>
+    <title>Orth.Castle.Windsor.OwinLifeStyle</title>
+    <licenseUrl>https://github.com/orthros/windsor.owinlifestyle/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/orthros/windsor.owinlifestyle</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides extensions to Castle.Windsor to use Owin Per-WebRequest Lifestyle</description>
+    <releaseNotes>Initial Release. Should have basic functionality</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>orthros Owin Castle.Windsor Extensions PerWebRequest</tags>
+  </metadata>
+</package>
