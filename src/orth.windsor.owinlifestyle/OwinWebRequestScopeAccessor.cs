@@ -3,7 +3,7 @@ using Castle.MicroKernel.Lifestyle.Scoped;
 
 namespace Orth.Windsor.Owinlifestyle
 {
-    public class OwinWebRequestScopeAccessor : IScopeAccessor
+    internal class OwinWebRequestScopeAccessor : IScopeAccessor
     {
         public void Dispose()
         {

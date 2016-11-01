@@ -5,7 +5,7 @@ using System.Runtime.Remoting.Messaging;
 
 namespace Orth.Windsor.Owinlifestyle
 {
-    public class OwinRequestScopeContext : IOwinRequestScopeContext
+    internal class OwinRequestScopeContext : IOwinRequestScopeContext
     {
         const string c_callContextKey = "owin.reqscopecontext";
         private readonly DateTime _utcTimestamp = DateTime.UtcNow;

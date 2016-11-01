@@ -8,7 +8,7 @@ using AppFunc = System.Func<System.Collections.Generic.IDictionary<string, objec
 
 namespace Orth.Windsor.Owinlifestyle
 {
-    public class PerWebRequestLifestyleOwinMiddleware
+    internal class PerWebRequestLifestyleOwinMiddleware
     {
         private readonly AppFunc _next;
         private const string c_key = "castle.per-web-request-lifestyle-cache";
