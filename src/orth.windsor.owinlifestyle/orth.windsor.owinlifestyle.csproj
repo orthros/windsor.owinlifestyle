@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppBuilderPerWebRequestLifestyleOwinMiddlewareExtensions.cs" />
+    <Compile Include="BasedOnDescriptorLifestyleExtension.cs" />
     <Compile Include="IOwinRequestScopeContext.cs" />
     <Compile Include="OwinRequestScopeContext.cs" />
     <Compile Include="OwinWebRequestScopeAccessor.cs" />
