@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Orth.Castle.Windsor.OwinLifeStyle</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <authors>orthros</authors>
     <owners>orthros</owners>
     <title>Orth.Castle.Windsor.OwinLifeStyle</title>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/orthros/windsor.owinlifestyle</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provides extensions to Castle.Windsor to use Owin Per-WebRequest Lifestyle</description>
-    <releaseNotes>Added functionality  with extension methods</releaseNotes>
+    <releaseNotes>Made the Fluent Extension method the default API for enabling PerOwinWebRequestLifestyle</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>orthros Owin Castle.Windsor Extensions PerWebRequest</tags>
   </metadata>
